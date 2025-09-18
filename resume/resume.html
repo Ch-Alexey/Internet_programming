@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме - Чапкин Алексей Николаевич</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .resume-container {
+            display: flex;
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .main-content {
+            flex: 3;
+            padding: 30px;
+        }
+        
+        .sidebar {
+            flex: 1;
+            background-color: #2c3e50;
+            color: white;
+            padding: 30px 20px;
+        }
+        
+        h1 {
+            font-size: 28px;
+            margin-bottom: 5px;
+            color: #2c3e50;
+        }
+        
+        h2 {
+            font-size: 20px;
+            margin: 25px 0 15px 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #3498db;
+            color: #2c3e50;
+        }
+        
+        .sidebar h2 {
+            color: white;
+            border-bottom: 2px solid #3498db;
+        }
+        
+        .position {
+            font-size: 18px;
+            color: #7f8c8d;
+            margin-bottom: 20px;
+        }
+        
+        .info-item {
+            margin-bottom: 15px;
+        }
+        
+        .info-item strong {
+            display: block;
+            color: #3498db;
+            margin-bottom: 5px;
+        }
+        
+        .sidebar .info-item {
+            margin-bottom: 25px;
+        }
+        
+        .sidebar strong {
+            color: #ecf0f1;
+        }
+        
+        .icon {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            margin-right: 10px;
+            background-color: #3498db;
+            border-radius: 50%;
+            vertical-align: middle;
+        }
+        
+        ul {
+            padding-left: 20px;
+            margin: 10px 0;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .project {
+            margin-bottom: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .resume-container {
+                flex-direction: column;
+            }
+            
+            .sidebar {
+                order: -1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <div class="main-content">
+            <h1>Чапкин Алексей Николаевич</h1>
+            <div class="position">DevOps/Backend разработчик</div>
+            
+            <h2>ЛИЧНАЯ ИНФОРМАЦИЯ</h2>
+            <div class="info-item">
+                <strong>Гражданство</strong>
+                <span>Российская Федерация</span>
+            </div>
+            <div class="info-item">
+                <strong>Город проживания</strong>
+                <span>Москва</span>
+            </div>
+            <div class="info-item">
+                <strong>Образование</strong>
+                <span>Высшее неоконченное (бакалавриат)</span>
+            </div>
+            <div class="info-item">
+                <strong>Дата рождения</strong>
+                <span>25.11.2005 (19 лет)</span>
+            </div>
+            <div class="info-item">
+                <strong>Пол</strong>
+                <span>Мужской</span>
+            </div>
+            <div class="info-item">
+                <strong>Семейное положение</strong>
+                <span>Холост</span>
+            </div>
+            
+            <h2>ОБРАЗОВАНИЕ</h2>
+            <div class="info-item">
+                <strong>Российский экономический университет им. Г. В. Плеханова</strong>
+                <span>Факультет: Математическое обеспечение и администрирование информационных систем</span><br>
+                <span>Специальность: Инженер-программист</span><br>
+                <span>Дата окончания: 2027 год</span><br>
+                <span>Форма обучения: Очная</span><br>
+                <span>Достижения: Закончил 2 курс на «отлично», принимаю участие в межвузовских олимпиадах по математике.</span>
+            </div>
+            
+            <h2>ВЫПОЛНЕННЫЕ ПРОЕКТЫ</h2>
+            <div class="project">
+                <strong>Курсовая на тему «Чат-бот с помощью списков» на 1 курсе</strong>
+                <p>Выполнена на C++. В основе работы лежит односвязный динамический список.</p>
+            </div>
+            <div class="project">
+                <strong>Групповой проект на 2 курсе</strong>
+                <p>Реализация веб приложения для выполнения заданий в городе, публикации фотографий и общению между пользователями. Роль в проекте — тимлид/бекенд разработчик. Бекенд разрабатывался на платформе NET Core с использованием ASP.NET Framework и C#.</p>
+            </div>
+            <div class="project">
+                <strong>Курсовая на тему «Применение алгоритмов коллективного поведения для координации призраков в игре Pacman» на 2 курсе</strong>
+                <p>Выполнена на C# с использованием WPF. В основе работы — модифицированный группового преследования для децентрализованного управления призраками.</p>
+            </div>
+            
+            <h2>ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ</h2>
+            <div class="info-item">
+                <strong>Личные качества</strong>
+                <p>Ответственный, внимателен к деталям. Способен быстро обучаться и адаптироваться к новым технологиям. Умею работать в команде. Целеустремлен, нацелен на результат. Аналитический склад ума.</p>
+            </div>
+            <div class="info-item">
+                <strong>О себе</strong>
+                <p>Студент, окончил 2 курс. Стремлюсь к постоянному развитию и профессиональному росту. Участвовал в командной разработке и учебных проектах. Моя цель — применять и развивать свои навыки на практике, а также участвовать в реальных проектах, чтобы стать высококвалифицированным специалистом.</p>
+            </div>
+        </div>
+        
+        <div class="sidebar">
+            <h2>Контакты</h2>
+            <div class="info-item">
+                <span class="icon"></span>
+                <span>Телефон</span>
+            </div>
+            <div class="info-item">
+                <span class="icon"></span>
+                <span>Email</span>
+            </div>
+            
+            <h2>Желаемая зарплата</h2>
+            <div class="info-item">
+                <span class="icon"></span>
+                <span>Не указана</span>
+            </div>
+            
+            <h2>График и занятость</h2>
+            <div class="info-item">
+                <span class="icon"></span>
+                <span>Стажировка, гибкий график</span>
+            </div>
+            
+            <h2>Знание языков</h2>
+            <div class="info-item">
+                <span class="icon"></span>
+                <span>Английский (B1)</span>
+            </div>
+            
+            <h2>Компьютерные навыки</h2>
+            <div class="info-item">
+                <ul>
+                    <li>Знаю языки программирования С++, С#.</li>
+                    <li>Имею опыт работы с Git, PostgreSQL, MySQL, NET Core.</li>
+                    <li>Понимаю принципы ООП и основы REST API.</li>
+                    <li>Разбираюсь в структурах данных, алгоритмах обработки информации, матанализе, дифференциальных уравнениях.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
